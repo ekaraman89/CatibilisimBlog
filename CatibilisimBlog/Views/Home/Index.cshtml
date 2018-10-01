@@ -16,11 +16,11 @@
                         <a class="post-img" href="blog-post.html"><img src="~/Content/img/hot-post-1.jpg" alt=""></a>
                         <div class="post-body">
                             <div class="post-category">
-                                <a href="category.html">Lifestyle</a>
+                                <a href="category.html">@item.Baslik</a>
                             </div>
-                            <h3 class="post-title title-lg"><a href="blog-post.html"></a></h3>
+                            <h3 class="post-title title-lg"><a href="@item.SeoLink">@item.Ozet</a></h3>
                             <ul class="post-meta">
-                                <li><a href="author.html">Çatı Bilişim</a></li>
+                                <li><a href="author.html">@item.Kullanici.Adi @item.Kullanici.Soyadi</a></li>
                                 <li>20 April 2018</li>
                             </ul>
                         </div>
